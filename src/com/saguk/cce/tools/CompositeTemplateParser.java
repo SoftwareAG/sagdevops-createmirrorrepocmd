@@ -38,7 +38,7 @@ public final class CompositeTemplateParser {
       products = getProductsFromTemplate(template);
       if (products != null) {
         /**
-         * If the Integration Server product exists search if additional products within 'package.list'
+         * If the Integration Server product exists search for additional products within 'package.list' 
          */
         integrationServerInstances = 
             (Map<String, ArrayList<String>>) products.get("integrationServer");
